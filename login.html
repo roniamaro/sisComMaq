@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel="stylesheet" href="./css.css">
+  <script src="./main.js"></script>
+</head>
+<body>
+  <section id="login">
+    <div class="wrapper">
+      <h4>LOGIN</h4>
+      <form role="form">
+        <div>
+          <label for="userLogin">Usuário</label>
+          <input id="userLogin" type="text" name="userLogin">
+        </div>
+
+        <div>
+          <label for="userPassword">Senha</label>
+          <input id="userPass" type="password" name="userPass">
+        </div>
+
+        <a href="#">Esqueci minha senha</a>
+
+        <input type="submit" onclick="logar(); return false">
+        <p>Não possui um usuário?
+          <a href="#">Cadastre-se agora</a>
+        </p>
+      </form>
+    </div>  
+  </section>
+</body>
+</html>

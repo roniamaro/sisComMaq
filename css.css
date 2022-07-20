@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem; /* 1.6rem = 16px*/
+  font-family: 'DM Sans';
+  text-align: center;
+
+  overflow: overlay;
+}
+
+.wrapper {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+section {
+  padding-block: 10rem;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  margin-block: 1rem;
+  width: 100%;
+}
+
+.menu {
+  text-align: left;
+}
+
+#login,
+#cadastro,
+#catalogo {
+  /* Apenas para centralizar o form na página */
+  margin: 1rem auto;
+  width: 400px;
+  /* Para ver as bordas do formulário */
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+table {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+thead {
+  background-color: rgb(235, 232, 232);
+}
+
+tr {
+  border-bottom: 0.1rem solid black;
+}
+
+#backToTopButton {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  
+  filter: drop-shadow(0.15rem 0.15rem 0.15rem black);
+}
+
+#backToTopButton:hover circle {
+  fill: black;
+}
+
+.center {
+  text-align: center;
+}
+
